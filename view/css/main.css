@@ -5,13 +5,14 @@
 
 body{
 	background:#363636;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 section{
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
+	/*height: 300px;*/
 }
 #main-sheet-container{
-	margin-top:60px;
+	/*margin-top:60px;*/
 }
 
 .sheet-container{
@@ -61,11 +62,20 @@ section{
 }
 /**/
 .sheet-head{
-
+	margin:0 96px;
+	min-height: 100%;
+	max-height: 100%;
+	outline: none;
 }
 .sheet-body{
-	padding:0 96px;
+	margin:0 96px;
+	min-height: 100%;
+	max-height: 100%;
+	outline: none;
 }
 .sheet-footer{
-
+	margin:0 96px;
+	min-height: 100%;
+	max-height: 100%;
+	outline: none;
 }

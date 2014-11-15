@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<header>
-			<!-- <nav>
+			<nav>
 				<div class="main-menu-container">
 					<div class="menu-container">
 						<div class="menu-row-one">
@@ -31,57 +31,34 @@
 						</div>
 					</div>
 				</div>
-			</nav> -->
+			</nav>
 		</header>
 		<!-- || MAIN_SHEET || -->
 		<section>
+		<div>
 			<div id="main-sheet-container">
 				<div id="sheet-container" class="sheet-container">
+					
 					<div id="sheet_1" class="sheet">
 						<div class="container-sheet-head">
 							<div id="sheet-head_1" class="sheet-head">
-								<div>
-								</div>
 							</div>
 						</div>
 
 						<div class="container-sheet-body">
 							<div id="sheet-body_1" class="sheet-body">
-								plop
 							</div>
 						</div>
 
 						<div class="container-sheet-footer">
 							<div id="sheet-footer_1" class="sheet-footer">
-								<div>
-								</div>
 							</div>
 						</div>
 					</div>
-					<div id="sheet_2" class="sheet">
-						<div class="container-sheet-head">
-							<div id="sheet-head_2" class="sheet-head">
-								<div>
-								</div>
-							</div>
-						</div>
-
-						<div class="container-sheet-body">
-							<div id="sheet-body_2" class="sheet-body">
-								<div></div>
-							</div>
-						</div>
-
-						<div class="container-sheet-footer">
-							<div id="sheet-footer_2" class="sheet-footer">
-								<div>
-								</div>
-							</div>
-						</div>
-					</div>
-
+				
 				</div>
 			</div>
+		</div>
 		</section>
 		<!-- || MAIN_SHEET || -->
 		<aside>

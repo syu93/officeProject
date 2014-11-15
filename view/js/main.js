@@ -1,6 +1,11 @@
 var nb_sheet="1";
 
 $(document).ready(function(){
-	$('#sheet_'+nb_sheet).attr('contenteditable','true');
-	$('#main-sheet-container').css('height',window.innerHeight);
+	$('#sheet-head_'+nb_sheet).prop('contenteditable',true);
+	$('#sheet-body_'+nb_sheet).prop('contenteditable',true); $('#sheet-body_'+nb_sheet).focus();
+	$('#sheet-footer_'+nb_sheet).prop('contenteditable',true);
 });
+
+function newpage(){
+	
+}
