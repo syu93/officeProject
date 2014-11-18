@@ -26,7 +26,13 @@
 						</div>
 						<div class="menu-row-two">
 							<div class="tool-container">
-								plop plop plop
+								<input type="button" value="G" onclick="document.execCommand('bold')"
+									style="font-weight:bold"/>
+								<input type="button" value="I" onclick="document.execCommand('italic')"
+									style="font-style:italic"/>
+								<input type="button" value="S" onclick="document.execCommand('underline')"
+									style="text-decoration:underline"/>
+								<input type="button" value="Effacer" onclick="document.execCommand('delete')"/>
 							</div>
 						</div>
 					</div>
